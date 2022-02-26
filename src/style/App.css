@@ -1,40 +1,39 @@
 
- /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 300px) { 
-   
-}
 
- /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    h1{
-        color:aqua;
-    }
- }
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    h1{
-        color:brown;
-    }
- }
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    h1{
-        color:blueviolet;
-    }
- }
- /* XX-Large devices (larger desktops, 1400px and up) */
-@media only screen and (min-width: 1400px), only screen and (orientation:landscape), only screen and(min-width:992px){ 
     .nav-bar-container{
         position: relative;
         overflow: hidden;
     }
     .navbar{
         width: 600px;
-        height:180px;
-        margin:0 0;
+        height:140px;
+        margin:0 ;
+    }
+    .navbar > *{
+        z-index: 100;
+    }
+    .navbar .navbar-brand{
+        position: relative;
+        top:-5px;
+        left:160px;
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: space-around;
+        width: 400px;
+        position: relative;
+        top:-30px;
+        left:500px;
+    }
+    .navbar-nav li a{
+        list-style: none;
+        color:black;
+    }
+    .navbar-nav li a:hover{
+        cursor: pointer;
     }
     .navbar::before{
-    content: " ";
+    content:"";
     position: absolute;
     top: -5px;
     left: 0px;
@@ -43,6 +42,7 @@
     background-color: #f0edea;
     border-radius:0px 0px 100px 0px;
     box-shadow:0px 6px #aa6228;
+    z-index:1;
     }
     .navbar::after{
     content: " ";
@@ -53,5 +53,9 @@
     height:70px;
     background-color:#f0edea;
     box-shadow:0px 6px #aa6228;
+    z-index:1;
     }
- }
+    .navbar image{
+        position: relative;
+        top:500px;
+    }
