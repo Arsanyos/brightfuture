@@ -4,7 +4,7 @@ import logo from "../assests/bright-future.png";
 function NavBar() {
   return (
     <div className="nav-bar-container">
-      <nav className="navbar navbar-expand-md ">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light ">
         <div className="container-fluid">
           <a class="navbar-brand">
             <img
@@ -14,25 +14,28 @@ function NavBar() {
               height="100px"
             />
           </a>
-        </div>
-        {/* ------------------- */}
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div className="navbar-nav">
               <a className="nav-link active" aria-current="page">
                 Home
               </a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link">About us</a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link">Services</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link ">Contact us</a>
-            </li>
-          </ul>
+              <a className="nav-link">Contact us</a>
+            </div>
+          </div>
+          {/* ------------------- */}
         </div>
       </nav>
     </div>

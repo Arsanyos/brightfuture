@@ -1,5 +1,36 @@
+:root {
+    --main:#aa6228;
+    --alt:#f0edea;
+    --body:#71a340;
+  }
+*{
+    margin:0;
+    padding:0;
+}
 
 
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+  
+    
+   
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  
+ }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+ }
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+ }
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px), only screen and (min-width:1200px){ 
     .nav-bar-container{
         position: relative;
         overflow: hidden;
@@ -25,6 +56,10 @@
         top:-30px;
         left:500px;
     }
+    .navbar image{
+        position: relative;
+        top:500px;
+    }
     .navbar-nav li a{
         list-style: none;
         color:black;
@@ -39,9 +74,9 @@
     left: 0px;
     width: 70%;
     height: 140px;
-    background-color: #f0edea;
+    background-color: var(--alt);
     border-radius:0px 0px 100px 0px;
-    box-shadow:0px 6px #aa6228;
+    box-shadow:0px 6px var(--main);
     z-index:1;
     }
     .navbar::after{
@@ -51,11 +86,58 @@
     left:413px;
     width: 250%;
     height:70px;
-    background-color:#f0edea;
-    box-shadow:0px 6px #aa6228;
+    background-color:var(--alt);
+    box-shadow:0px 6px var(--main);
     z-index:1;
     }
-    .navbar image{
-        position: relative;
-        top:500px;
-    }
+
+    /* HOME_ROUTE */
+    .Home-container{
+    width: auto;
+    height: 700px;
+    background-color: #c3834f;
+    position: relative;
+    bottom:70px;
+}
+
+.row{
+    position: relative;
+    top:140px;
+}
+
+
+.contactUs-container{
+    width:100px;
+    height: 500px;
+    padding:30px 10px 20px 10px;
+    margin:0 auto;
+    background-color: white;
+    background: rgba(255, 242, 242, 0.6);
+    text-align: center;
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    border: 2px solid var(--main);
+    border-radius: 25px;
+    
+}
+
+.companyLogo-container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-top:8px;
+    padding:10px;
+    width:200px;
+    background-color:var(--body);
+    color:black;
+    border-radius: 25px;
+}
+
+    
+ }
+ 
