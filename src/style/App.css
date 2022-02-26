@@ -7,6 +7,9 @@
     margin:0;
     padding:0;
 }
+body{
+    background-color: var(--alt);
+}
 
 
 
@@ -100,9 +103,9 @@
     bottom:70px;
 }
 
-.row{
+.Home-container .row{
     position: relative;
-    top:140px;
+    top:120px;
 }
 
 
@@ -137,7 +140,83 @@
     color:black;
     border-radius: 25px;
 }
+.company-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     
+}
+.company-container .row{
+    position: relative;
+    top:70px;
+
+    width:80rem;
+}
+.header-container{
+    width:900px;
+    text-align: center;
+}
+.card{
+    width:35rem;
+    height:22rem;
+    border-radius: 25px;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:30px;
+    align-items: center;
+    text-align: center;
+   
+}
+.card-img-top{
+    width:6rem;
+    height:6rem;
+    color: var(--body);
+    margin-bottom:10px;
+}
+.company-moto-list{
+    list-style:triangle inside url("../assests/right-arrow-black-triangle\ .png");
+    text-align: left;
+    width:100%;
+
+    margin-top:25px;
+    position: relative;
+    right:20px;
+    
+}
+.company-moto-list li{
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    margin-bottom:10px;
+    padding:5px;
+}
+.company-service-list{
+    text-align: left;
+    width:100%;
+
+    margin-top:25px;
+    position: relative;
+    
+    top:-10px;
+}
+.company-service-list li{
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    margin-bottom:10px;
+    padding:5px;
+
+    padding-top: 0;
+}
+.card-body{
+    width:37rem;
+    padding-left: 40px ;
+    padding-right:40px;
+}
+
+.company-moto-list li:hover{
+    cursor:cell;
+    color:var(--body);
+    transition-duration: 0.7s;
+}
  }
  

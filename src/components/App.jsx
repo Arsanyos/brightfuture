@@ -5,11 +5,13 @@ import "../style/App.css";
 //importing components
 import NavBar from "./NavBar.jsx";
 import Home from "./Home.jsx";
+import Company from "./Company.jsx";
 function App() {
   return (
     <div>
       <NavBar />
       <Home />
+      <Company />
     </div>
   );
 }
