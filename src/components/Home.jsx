@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../assests/bright-future.png";
+import Company from "./Company";
+import SisterCompany from "./SisterCompany";
 function Home() {
   return (
     <div className="Home-container">
@@ -42,6 +44,15 @@ function Home() {
           </React.Fragment>
         </div>
       </div>
+      <Company />
+      <SisterCompany />
+      <img
+        className="work-with-bright"
+        src={require("../assests/web titel A.png")}
+        alt="start-project-with-bright-future"
+        width="800px"
+        height="130px"
+      />
     </div>
   );
 }

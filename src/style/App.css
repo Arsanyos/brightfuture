@@ -7,9 +7,6 @@
     margin:0;
     padding:0;
 }
-body{
-    background-color: var(--alt);
-}
 
 
 
@@ -101,6 +98,7 @@ body{
     background-color: #c3834f;
     position: relative;
     bottom:70px;
+    text-align: center;
 }
 
 .Home-container .row{
@@ -131,6 +129,7 @@ body{
 .companyLogo-container{
     display: flex;
     justify-content: center;
+    margin-bottom:200px;
 }
 .btn{
     margin-top:8px;
@@ -144,8 +143,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
+    background-color: var(--alt);
+    height: 90rem;
 }
 .company-container .row{
     position: relative;
@@ -156,6 +155,7 @@ body{
 .header-container{
     width:900px;
     text-align: center;
+    margin-top:50px;
 }
 .card{
     width:35rem;
@@ -217,6 +217,15 @@ body{
     cursor:cell;
     color:var(--body);
     transition-duration: 0.7s;
+}
+.sister-company{
+    margin-top:60px;
+}
+.sister-company-image{
+    margin-top:10px;
+}
+.work-with-bright{
+    margin-top:20px;
 }
  }
  
