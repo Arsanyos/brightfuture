@@ -1,19 +1,19 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
 import logo from "../assests/bright-future.png";
 function NavBar() {
   return (
     <div className="nav-bar-container">
       <nav className="navbar navbar-expand-lg navbar-light bg-light ">
         <div className="container-fluid">
-          <a class="navbar-brand">
+          <Link to="/" class="navbar-brand">
             <img
               src={require("../assests/bright-future.png")}
               alt=""
               width="100px"
               height="100px"
             />
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -27,15 +27,20 @@ function NavBar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page">
+              <Link to="/" className="nav-link active">
                 Home
-              </a>
-              <a className="nav-link">About us</a>
-              <a className="nav-link">Services</a>
-              <a className="nav-link">Contact us</a>
+              </Link>
+              <Link to="/AboutUs" className="nav-link">
+                About us
+              </Link>
+              <Link to="/Services" className="nav-link">
+                Services
+              </Link>
+              <Link to="/ContactUs" className="nav-link">
+                Contact us
+              </Link>
             </div>
           </div>
-          {/* ------------------- */}
         </div>
       </nav>
     </div>

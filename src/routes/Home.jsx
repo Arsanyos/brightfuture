@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assests/bright-future.png";
-import Company from "./Company";
-import SisterCompany from "./SisterCompany";
+import Company from "../components/Company";
+import SisterCompany from "../components/SisterCompany";
 function Home() {
   return (
     <div className="Home-container">
