@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assests/bright-future.png";
 function NavBar() {
   return (
     <div className="nav-bar-container">
