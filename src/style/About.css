@@ -137,6 +137,7 @@
     .whyBright-container{
         display: flex;
         flex-direction: row;
+        margin-top:40px;
     }
     .img-container{
         width:40%;

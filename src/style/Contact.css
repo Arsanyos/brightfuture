@@ -1,0 +1,120 @@
+:root {
+    --main:#aa6228;
+    --alt:#f0edea;
+    --body:#71a340;
+  }
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+  
+    
+   
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  
+ }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+ }
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+ }
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px), only screen and (min-width:1200px){ 
+ .contactus{
+     text-align: center;
+     background-color: white;
+ }
+ .contactus h3{
+     font-weight: bold;
+     position: relative;
+     right:300px;
+ }
+    .contactus-content-container{
+     
+     background-color: var(--alt);
+ }
+    .contactus-header-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+        background-color: var(--body);
+        height: 380px;
+        position: relative;
+        bottom:120px;
+      
+  }
+  .heading{
+      font-weight: bold;
+  }
+
+  .contact-info-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap:80px;
+  }
+  .map-location{
+      height:380px;
+      width:400px;
+      background-color: var(--body);
+  }
+  form{
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+      background-color: white;
+      padding: 20px;
+  }
+  .send-message{
+      background-color: var(--body);
+      padding: 10px;
+      border-radius: 15px;
+      border:0;
+  }
+  .input-message{
+      height:90px;
+      text-align: top;
+      padding-top: 0;
+      padding-left: 0;
+  }
+  .intouch-container{
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+  }
+  .cont{
+      display: flex;
+      flex-direction: row;
+      gap:15px;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+  }
+  .cont img{
+      
+  }
+  .tel-content ul{
+      list-style: none;
+  }
+  .intouch{
+width:350px;
+  }
+  .intouch p{
+    margin:0; 
+  }
+
+}

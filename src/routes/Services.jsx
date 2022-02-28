@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import React from "react";
 import "../style/Services.css";
 //importing components
@@ -65,7 +64,6 @@ function Services() {
           </div>
         </div>
       </div>
-      <SisterCompany />
       <img
         className="work-with-bright"
         src={require("../assests/web titel A.png")}

@@ -144,8 +144,6 @@ function AboutUs() {
           </div>
         </div>
       </div>
-
-      <SisterCompany />
       <img
         className="work-with-bright"
         src={require("../assests/web titel A.png")}

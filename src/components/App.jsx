@@ -7,7 +7,7 @@ import "../style/App.css";
 import NavBar from "./NavBar.jsx";
 import Home from "../routes/Home.jsx";
 import Services from "../routes/Services.jsx";
-import ContactUs from "../routes/ContactUs.jsx";
+import ContactUs from "../routes/ContactUs";
 import AboutUs from "../routes/AboutUs.jsx";
 
 function App() {
