@@ -34,11 +34,14 @@
  .contactus{
      text-align: center;
      background-color: white;
- }
+    position: relative;
+    bottom:30px;
+    }
  .contactus h3{
      font-weight: bold;
      position: relative;
-     right:300px;
+     width:400px;
+     left:170px;
  }
     .contactus-content-container{
      
@@ -53,7 +56,7 @@
         background-color: var(--body);
         height: 380px;
         position: relative;
-        bottom:120px;
+        bottom:40px;
       
   }
   .heading{
@@ -94,7 +97,8 @@
   .intouch-container{
       display: flex;
       flex-direction: column;
-      gap:20px;
+      height:400px;
+      gap:10px;
   }
   .cont{
       display: flex;

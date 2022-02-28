@@ -9,7 +9,7 @@ import Home from "../routes/Home.jsx";
 import Services from "../routes/Services.jsx";
 import ContactUs from "../routes/ContactUs";
 import AboutUs from "../routes/AboutUs.jsx";
-
+import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
@@ -21,6 +21,9 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </div>
   );

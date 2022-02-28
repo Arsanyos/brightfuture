@@ -13,7 +13,7 @@ function Company() {
             <div className="card">
               <img
                 className="card-img-top"
-                src={require("../assests/eye.png")}
+                src={require("../assests/New folder (3)/Untitled-1.png")}
                 class="card-img-top"
                 alt="company-vision"
               />
@@ -35,7 +35,7 @@ function Company() {
             <div className="card">
               <img
                 className="card-img-top"
-                src={require("../assests/target.png")}
+                src={require("../assests/New folder (3)/Untitled-2.png")}
                 class="card-img-top"
                 alt="company-mission"
               />
@@ -57,7 +57,7 @@ function Company() {
             <div className="card">
               <img
                 className="card-img-top"
-                src={require("../assests/atom.png")}
+                src={require("../assests/New folder (3)/Untitled-3.png")}
                 class="card-img-top"
                 alt="company-vision"
               />

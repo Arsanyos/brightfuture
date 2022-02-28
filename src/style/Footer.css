@@ -1,0 +1,91 @@
+:root {
+    --main:#aa6228;
+    --alt:#f0edea;
+    --body:#71a340;
+  }
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+  
+    
+   
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  
+ }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+ }
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+ }
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px), only screen and (min-width:1200px){ 
+   .footer{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       gap:40px;
+       background-color: var(--body);
+        padding-top:30px;
+       margin-top:40px;
+   }
+   .footer p{
+       text-align: left;
+       margin-top:20px;
+       color: whitesmoke;
+   }
+   .first-cont{
+       text-align:center;
+       width:30%;
+       position: relative;
+       bottom:100px;
+   }
+   .third-cont{
+       display: flex;
+       flex-direction: column;
+   }
+   .icons{
+       display: flex;
+       flex-direction: row;
+       gap:10px;
+   }
+   .intouch-container{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    gap:10px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.cont img{
+    
+}
+.tel-content ul{
+    list-style: none;
+}
+.intouch{
+width:350px;
+}
+.intouch p{
+  margin:0; 
+  color:white;
+}
+}
