@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/brightfuture/static/css/main.5d7a7b11.css",
+    "main.js": "/brightfuture/static/js/main.58f0a32f.js",
+    "static/media/web titel B.png": "/brightfuture/static/media/web titel B.2b045796be842986ff43.png",
+    "static/media/web titel A.png": "/brightfuture/static/media/web titel A.387b311b10b19e6afc70.png",
+    "static/media/bright-future.png": "/brightfuture/static/media/bright-future.e7313b9551acced92ebf.png",
+    "static/media/Untitled-3.png": "/brightfuture/static/media/Untitled-3.bbb1a164c93498347a4b.png",
+    "static/media/Untitled-2.png": "/brightfuture/static/media/Untitled-2.cc046c857ab84ee6d58d.png",
+    "static/media/Untitled-1.png": "/brightfuture/static/media/Untitled-1.44693b00f908af6eac49.png",
+    "index.html": "/brightfuture/index.html",
+    "main.5d7a7b11.css.map": "/brightfuture/static/css/main.5d7a7b11.css.map",
+    "main.58f0a32f.js.map": "/brightfuture/static/js/main.58f0a32f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d7a7b11.css",
+    "static/js/main.58f0a32f.js"
+  ]
+}
