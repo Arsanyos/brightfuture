@@ -16,10 +16,10 @@ function Footer() {
           height="100px"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident
+          Our objective is to provide our clients with top level consulting
+          services to our esteemed customers. Exceptional and upper echelon
+          skill of our staff supported by on ging trading and development
+          ensures the delivery of very high level professional services.
         </p>
       </div>
       <div className="second-cont">

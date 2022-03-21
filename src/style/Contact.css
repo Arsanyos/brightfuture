@@ -112,7 +112,7 @@
       color:black;
   }
   .indv p{
-    color:var(--main);
+    color:black;
   }
   .cont{
       display: flex;
@@ -122,6 +122,7 @@
       align-items: center;
       text-align: left;
   }
+  45648847
   .cont img{
       
   }

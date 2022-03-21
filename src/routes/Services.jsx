@@ -36,30 +36,30 @@ function Services() {
 
         <div className="services-provided">
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests/New folder (4)/Untitled-6.png")} />
             <p>Undertaking pre-feasiblity and feasiblity studies</p>
           </div>
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests/New folder (4)/Untitled-7.png")} />
             <p>Formulation of Business and strategic plans</p>
           </div>
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests//New folder (4)/Untitled-8.png")} />
             <p>
               Policy formulation and system development that includes the
               preparation of manuals for range of functions
             </p>
           </div>
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests/New folder (4)/Untitled-11.png")} />
             <p>Performance and internal audit appraisals</p>
           </div>
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests/New folder (4)/Untitled-10.png")} />
             <p>The development of key Performance indicators(KPIS)</p>
           </div>
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests/New folder (4)/Untitled-9.png")} />
             <p>Support in perparation of annual report of compnaies</p>
           </div>
         </div>
