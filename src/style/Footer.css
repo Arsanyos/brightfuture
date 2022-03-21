@@ -55,6 +55,9 @@
    .third-cont{
        display: flex;
        flex-direction: column;
+       position: relative;
+       bottom:80px;
+       left:15px;
    }
    .icons{
        display: flex;

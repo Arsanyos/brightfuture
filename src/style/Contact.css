@@ -47,6 +47,10 @@
      
      background-color: var(--alt);
  }
+ .contactus .work-with-bright{
+     position: relative;
+     top:70px;
+ }
     .contactus-header-container{
         display: flex;
         flex-direction: column;

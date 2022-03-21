@@ -29,18 +29,26 @@ function Footer() {
       <div className="third-cont">
         <h3>For more information follow us</h3>
         <div className="icons">
-          <img
-            className="icon facebook"
-            src={require("../assests/icons/facebook.png")}
-          />
-          <img
-            className="icon facebook"
-            src={require("../assests/icons/twitter.png")}
-          />
-          <img
-            className="icon facebook"
-            src={require("../assests/icons/telegram.png")}
-          />
+          <a href="#">
+            <img
+              className="icon facebook"
+              src={require("../assests/icons/facebook.png")}
+            />
+          </a>
+          <a href="#">
+            {" "}
+            <img
+              className="icon facebook"
+              src={require("../assests/icons/twitter.png")}
+            />
+          </a>
+
+          <a href="#">
+            <img
+              className="icon facebook"
+              src={require("../assests/icons/telegram.png")}
+            />
+          </a>
         </div>
       </div>
     </div>

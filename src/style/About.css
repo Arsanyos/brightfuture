@@ -86,10 +86,11 @@
       }
     .indv-cards{
         width:25rem;
-        height:20rem;
+        height:25rem;
         background-color: white;
         padding:20px;
     }
+    
     .princples-container{
         display: flex;
         flex-direction: column;

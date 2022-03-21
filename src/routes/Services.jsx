@@ -20,20 +20,17 @@ function Services() {
         <div className="services-to-prov">
           <h2>How can we help you?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum! Provident
-            similique accusantium nemo autem. Veritatis obcaecati tenetur iure
-            eius earum ut molestias architecto voluptate
+            Our people are crucial in the delivery of our services and solution
+            to our customers. In order to ensure that everyone is equipped with
+            the right skill, knowledge and attitude, a comprehensive training
+            program is put in place to constantly upgrade our people in
+            operational, technical and management skills.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum! Provident
-            similique accusantium nemo autem. Veritatis obcaecati tenetur iure
-            eius earum ut molestias architecto voluptate
+            We believe firmly in providing the right training and practical
+            knowledge for our people, in order for them to execute their duties
+            and responsibilities confidently. Our aim is to stay relevant to the
+            ever-changing market place and customer's requirement.
           </p>
         </div>
 
