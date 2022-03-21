@@ -8,12 +8,14 @@ function Services() {
     <div className="services">
       <div className="service-container">
         <div className="services-container-heading">
-          <h1 className="heading">Services</h1>
-          <h5 className="sub-heading">We provide a wide range of services</h5>
-          <p className="para-content">
-            Our people are crucial in the delivery of our services and solution
-            to our customers
-          </p>
+          <div className="services-headings">
+            <h1 className="heading">Services</h1>
+            <h5 className="sub-heading">We provide a wide range of services</h5>
+            <p className="para-content">
+              Our people are crucial in the delivery of our services and
+              solution to our customers
+            </p>
+          </div>
         </div>
         <div className="services-to-prov">
           <h2>How can we help you?</h2>
@@ -34,6 +36,7 @@ function Services() {
             eius earum ut molestias architecto voluptate
           </p>
         </div>
+
         <div className="services-provided">
           <div className="service">
             <img src={require("../assests/google-analytics.png")} />

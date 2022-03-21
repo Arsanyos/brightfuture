@@ -28,7 +28,20 @@ function Footer() {
       </div>
       <div className="third-cont">
         <h3>For more information follow us</h3>
-        <div className="icons"></div>
+        <div className="icons">
+          <img
+            className="icon facebook"
+            src={require("../assests/icons/facebook.png")}
+          />
+          <img
+            className="icon facebook"
+            src={require("../assests/icons/twitter.png")}
+          />
+          <img
+            className="icon facebook"
+            src={require("../assests/icons/telegram.png")}
+          />
+        </div>
       </div>
     </div>
   );

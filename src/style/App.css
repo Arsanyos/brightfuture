@@ -38,7 +38,7 @@
     .navbar{
         width: 600px;
         height:140px;
-        margin:0 ;
+        margin:0;
     }
     .navbar > *{
         z-index: 100;
@@ -95,31 +95,40 @@
     .Home{
         text-align: center;
         justify-content:center ;
-
         position: relative;
-        bottom:70px;
+        bottom:0px;
     }
     .Home-container{
-        padding: 90px;
-    background-color: #c3834f;
+    padding: 90px;
+    background-image:url("../assests/web\ pic\ paage\ 1.png");
+    background-size: cover;
     position: relative;
-    bottom:0px;
+   height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .center{
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: relative;
+    top:60px;
+    margin: 0;
+    padding: 0;
 }
-
+.main-content{
+    position: relative;
+    bottom: 185px;
+}
 
 .contactUs-container{
 
     height: 500px;
     padding:30px 10px 20px 10px;
+    position: relative;
     margin:0 auto;
     background-color: white;
     background: rgba(255, 242, 242, 0.6);
@@ -127,6 +136,7 @@
     width:500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     
 
@@ -157,7 +167,7 @@
     height: 90rem;
 }
 .company-container .row{
-         position: relative;
+position: relative;
     top:40px;
 
     width:80rem;

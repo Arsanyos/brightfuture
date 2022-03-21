@@ -88,4 +88,16 @@ width:350px;
   margin:0; 
   color:white;
 }
+.indv p{
+    margin: 0;
+}
+.icons{
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+
+}
+.icons .facebook-icon{
+    background-color: red;
+}
 }

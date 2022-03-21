@@ -35,7 +35,7 @@
      text-align: center;
      background-color: white;
     position: relative;
-    bottom:30px;
+    bottom:0px;
     }
  .contactus h3{
      font-weight: bold;
@@ -53,15 +53,18 @@
         align-items: center;
         justify-content: center;
         gap:20px;
-        background-color: var(--body);
-        height: 380px;
+        background-image:url("../assests/web\ pic\ paage\ 3.png");
+        background-size: cover;
+        height: 480px;
         position: relative;
-        bottom:40px;
+        top:40px;
+        margin-bottom: 50px;
       
   }
   .heading{
       font-weight: bold;
   }
+
 
   .contact-info-container{
       display: flex;
@@ -99,6 +102,13 @@
       flex-direction: column;
       height:400px;
       gap:10px;
+     
+  }
+  .intouch{
+      color:black;
+  }
+  .indv p{
+    color:var(--main);
   }
   .cont{
       display: flex;
@@ -114,11 +124,12 @@
   .tel-content ul{
       list-style: none;
   }
-  .intouch{
-width:350px;
+
+  .indv{
+    width:350px;
   }
-  .intouch p{
-    margin:0; 
+  .indv p{
+    margin:0;
   }
 
 }
