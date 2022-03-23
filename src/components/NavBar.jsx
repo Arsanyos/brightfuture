@@ -38,6 +38,9 @@ function NavBar() {
               <Link to="/ContactUs" className="nav-link">
                 Contact us
               </Link>
+              <Link to="/News" className="nav-link">
+                News
+              </Link>
             </div>
           </div>
         </div>

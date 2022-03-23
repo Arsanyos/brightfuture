@@ -9,6 +9,7 @@ import Home from "../routes/Home.jsx";
 import Services from "../routes/Services.jsx";
 import ContactUs from "../routes/ContactUs";
 import AboutUs from "../routes/AboutUs.jsx";
+import News from "../routes/News";
 import Footer from "./Footer";
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/News" element={<News />} />
         </Routes>
       </div>
       <div className="footer">
