@@ -34,26 +34,41 @@
    .services{
        background-color: white;
        text-align: center;
+       position: relative;
+       top:120px;
    }
+   .service-container{
+    background-color: var(--alt);
+    display: flex;
+    flex-direction: column;
+    justify-content: ce;
+    align-items: center;
+    height: auto;
+    margin:0;
+    padding: 0;
+}
+   .services-headings{
+       position: relative;
+       top:40px;
+   }
+   
     .services-container-heading{
-        display: flex;
-        flex-direction: column;
+         display: flex;
+        flex-direction: column; 
         justify-content: center;
         align-items: center;
         gap:20px;
-        height: 400px;
-        width: 100%;
-        background-color: var(--body);
+        height:400px;
+        width: 100%;       
+    }
+    .services-container-heading{
+        background-image: url("../assests/web\ pic\ paage\ 3.png");
+        background-position: 0;
+        background-size:cover;
         position: relative;
-        bottom:65px;
-        
+        bottom:10px;
     }
-    .service-container{
-        background-color: var(--alt);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+   
     .services-to-prov{
         width:480px;
     }
@@ -75,7 +90,19 @@
         background-color: white;
         width:400px;
         height:200px;
-        font-size: 20px;
+        font-size: 16px;
         padding:20px;
+
+        position: relative;
+    }
+    .service img{
+        width:80%;
+        height: 160%;
+        position: relative;
+        bottom:110px;
+    }
+    .service p{
+        position: relative;
+        bottom:150px;
     }
 }

@@ -16,10 +16,10 @@ function Footer() {
           height="100px"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident
+          Our objective is to provide our clients with top level consulting
+          services to our esteemed customers. Exceptional and upper echelon
+          skill of our staff supported by on ging trading and development
+          ensures the delivery of very high level professional services.
         </p>
       </div>
       <div className="second-cont">
@@ -28,7 +28,28 @@ function Footer() {
       </div>
       <div className="third-cont">
         <h3>For more information follow us</h3>
-        <div className="icons"></div>
+        <div className="icons">
+          <a href="#">
+            <img
+              className="icon facebook"
+              src={require("../assests/icons/facebook.png")}
+            />
+          </a>
+          <a href="#">
+            {" "}
+            <img
+              className="icon facebook"
+              src={require("../assests/icons/twitter.png")}
+            />
+          </a>
+
+          <a href="#">
+            <img
+              className="icon facebook"
+              src={require("../assests/icons/telegram.png")}
+            />
+          </a>
+        </div>
       </div>
     </div>
   );

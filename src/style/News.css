@@ -1,0 +1,8 @@
+.news-container{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    margin:60px;
+    position: relative;
+    top:200px;
+}

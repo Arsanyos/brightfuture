@@ -38,10 +38,13 @@
     .navbar{
         width: 600px;
         height:140px;
-        margin:0 ;
+        margin:0;
     }
     .navbar > *{
         z-index: 100;
+    }
+    .nav-link{
+        margin-right:20px;
     }
     .navbar .navbar-brand{
         position: relative;
@@ -51,10 +54,17 @@
     .navbar-nav{
         display: flex;
         justify-content: space-around;
-        width: 400px;
+        width: 500px;
         position: relative;
         top:-30px;
         left:500px;
+    }
+    .nav-link{
+        padding: 0 16px;
+  transition: opacity 0.3s;
+    }
+    .navbar-nav:hover .nav-link:not(:hover){
+        opacity: 0.5;
     }
     .navbar image{
         position: relative;
@@ -63,6 +73,7 @@
     .navbar-nav li a{
         list-style: none;
         color:black;
+       
     }
     .navbar-nav li a:hover{
         cursor: pointer;
@@ -95,31 +106,40 @@
     .Home{
         text-align: center;
         justify-content:center ;
-
         position: relative;
-        bottom:70px;
+        bottom:0px;
     }
     .Home-container{
-        padding: 90px;
-    background-color: #c3834f;
+    padding: 90px;
+    background-image:url("../assests/web\ pic\ paage\ 1.png");
+    background-size: cover;
     position: relative;
-    bottom:0px;
+   height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .center{
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: relative;
+    top:60px;
+    margin: 0;
+    padding: 0;
 }
-
+.main-content{
+    position: relative;
+    bottom: 185px;
+}
 
 .contactUs-container{
 
     height: 500px;
     padding:30px 10px 20px 10px;
+    position: relative;
     margin:0 auto;
     background-color: white;
     background: rgba(255, 242, 242, 0.6);
@@ -127,6 +147,7 @@
     width:500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     
 
@@ -157,7 +178,7 @@
     height: 90rem;
 }
 .company-container .row{
-         position: relative;
+position: relative;
     top:40px;
 
     width:80rem;
@@ -210,7 +231,7 @@
     top:-10px;
 }
 .company-service-list li{
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-bottom: 1px solid black;
     margin-bottom:10px;
     padding:5px;
@@ -222,6 +243,7 @@
     padding-left: 40px ;
     padding-right:40px;
 }
+
 
 .company-moto-list li:hover{
     cursor:cell;

@@ -8,58 +8,58 @@ function Services() {
     <div className="services">
       <div className="service-container">
         <div className="services-container-heading">
-          <h1 className="heading">Services</h1>
-          <h5 className="sub-heading">We provide a wide range of services</h5>
-          <p className="para-content">
-            Our people are crucial in the delivery of our services and solution
-            to our customers
-          </p>
+          <div className="services-headings">
+            <h1 className="heading">Services</h1>
+            <h5 className="sub-heading">We provide a wide range of services</h5>
+            <p className="para-content">
+              Our people are crucial in the delivery of our services and
+              solution to our customers
+            </p>
+          </div>
         </div>
         <div className="services-to-prov">
           <h2>How can we help you?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum! Provident
-            similique accusantium nemo autem. Veritatis obcaecati tenetur iure
-            eius earum ut molestias architecto voluptate
+            Our people are crucial in the delivery of our services and solution
+            to our customers. In order to ensure that everyone is equipped with
+            the right skill, knowledge and attitude, a comprehensive training
+            program is put in place to constantly upgrade our people in
+            operational, technical and management skills.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum! Provident
-            similique accusantium nemo autem. Veritatis obcaecati tenetur iure
-            eius earum ut molestias architecto voluptate
+            We believe firmly in providing the right training and practical
+            knowledge for our people, in order for them to execute their duties
+            and responsibilities confidently. Our aim is to stay relevant to the
+            ever-changing market place and customer's requirement.
           </p>
         </div>
+
         <div className="services-provided">
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests/New folder (4)/Untitled-6.png")} />
             <p>Undertaking pre-feasiblity and feasiblity studies</p>
           </div>
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests/New folder (4)/Untitled-7.png")} />
             <p>Formulation of Business and strategic plans</p>
           </div>
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests//New folder (4)/Untitled-8.png")} />
             <p>
               Policy formulation and system development that includes the
               preparation of manuals for range of functions
             </p>
           </div>
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests/New folder (4)/Untitled-11.png")} />
             <p>Performance and internal audit appraisals</p>
           </div>
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests/New folder (4)/Untitled-10.png")} />
             <p>The development of key Performance indicators(KPIS)</p>
           </div>
           <div className="service">
-            <img src={require("../assests/google-analytics.png")} />
+            <img src={require("../assests/New folder (4)/Untitled-9.png")} />
             <p>Support in perparation of annual report of compnaies</p>
           </div>
         </div>

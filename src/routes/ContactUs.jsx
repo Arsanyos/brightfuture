@@ -14,7 +14,14 @@ function ContactUs() {
         <h3>Contact us we will replay</h3>
         <div className="contact-info-container">
           <Form />
-          <div className="map-location"></div>
+          <div className="map-location">
+            <img
+              src={require("../assests/map.png")}
+              alt="bright-future-location"
+              height="380px"
+              width="400px"
+            />
+          </div>
           <div className="socials-container">
             <GetInTouch />
           </div>
